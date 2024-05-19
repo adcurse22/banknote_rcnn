@@ -58,6 +58,7 @@ roi = crop_image(img, bbox_predicted)
 plt.imshow(cv2.cvtColor(roi, cv2.COLOR_BGR2RGB))
 plt.show()
 
+#FUNCTION FOR OCR REALIZATION
 def text_recognize(img):
     reader = easyocr.Reader(["ru"])
     result = reader.readtext(img, detail=1, allowlist='1, 2, 3, 4, 5, 6, 7, 8, 9, 0, А, Б, В, Г, Д, Е, Ё, Ж, З, И, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я')
