@@ -1,2 +1,1 @@
-bannote rcnn project
-фывфывфывфывфывфывфыв
+bannote rcnn projectфывфывфывфывфывфыв
